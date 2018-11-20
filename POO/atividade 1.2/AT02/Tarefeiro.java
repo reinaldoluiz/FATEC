@@ -1,4 +1,4 @@
-public class Tarefeiro extends PessoaFisica{
+public class Tarefeiro extends Empregado{
 
 	private int horasTrabalhadas;
 	private double valorHora;

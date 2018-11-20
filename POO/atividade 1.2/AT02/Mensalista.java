@@ -1,4 +1,4 @@
-public class Mensalista extends PessoaFisica{
+public class Mensalista extends Empregado{
 
 	private double salario;
 
