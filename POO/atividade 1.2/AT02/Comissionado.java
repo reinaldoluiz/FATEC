@@ -1,4 +1,4 @@
-public class Comissionado extends PessoaFisica{
+public class Comissionado extends Empregado{
 
 	private double comissao;
   private double salario;
