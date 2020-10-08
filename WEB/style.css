@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand img{
+    width: 50px;
+}
+
+.avatar{
+    padding: 15%;
+    width: 50px;
+}
+
+.container{
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    margin-bottom: 2%;
+}
+
+.card-show{
+    padding: 2%;
+    display: flex;
+    flex-direction: row!important;
+}
+
+.card-show img{
+    width: 20%;
+}
