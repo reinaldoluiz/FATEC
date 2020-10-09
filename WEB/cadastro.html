@@ -45,12 +45,31 @@
     </nav>
     <section class="container">
        <form>
-        nome:<input type="text" id="txtNome" size="50"
-        placeholder="digite seu nome" /><br/>
-        email:<input type="text" id="txtEmail" size="60" placeholder="digite seu email" /><br/>
-        CPF:<input type="text" id="txtCPF" size="30" /><br/>
-        telefone:<input type="text" id="txtTelefone" size="11" /><br/>
-        <input type="button" id="bt1" value="Enviar" onClick="validar();" />
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">Nome</span>
+          </div>
+          <input type="text" id="txtNome" class="form-control" placeholder="digite seu nome" />
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">Email</span>
+          </div>
+          <input type="text" id="txtEmail" class="form-control" placeholder="digite seu email" />
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">CPF</span>
+          </div>
+          <input type="text" id="txtCPF"class="form-control" />
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">Telefone</span>
+          </div>
+          <input type="text" id="txtTelefone" size="11"class="form-control" />
+        </div>
+        <input type="button" class="btn btn-success" id="bt1" value="Enviar" onClick="validar();" />
        </form>
     </section>
 </body>

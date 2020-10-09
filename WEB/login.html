@@ -47,16 +47,27 @@
        <div class="login">
             <h3>Já tenho Cadastro</h3>
             <form action='#'>
-                email:<input type="text" id="txtEmail" size="30" placeholder="digite seu email" /><br/>
-                senha:<input type="text" id="txtSenha" size="15" placeholder="digite seu senha" /><br/>
-                <input type="submit" value="Entrar" />
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">Email</span>
+                </div>
+                <input type="text" id="txtEmail" class="form-control" placeholder="digite seu email" /><br/>
+              </div>
+
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">Senha</span>
+                </div>
+                <input type="text" id="txtSenha" class="form-control" placeholder="digite seu senha" /><br/>
+              </div>
+                <input type="submit" class="btn btn-success" value="Entrar" onClick="validar();"/>
             </form>
             <a href="esqueci.html"><p>Esqueci minha senha</p></a>
        </div>
        <div class="cadastro">
             <h3>Ainda não tenho cadastro</h3>
             <form action="cadastro.html">
-                <input type="submit" value="Clique Aqui" />
+                <input type="submit" class="btn btn-success" value="Clique Aqui" />
             </form>
             
        </div>

@@ -32,3 +32,23 @@
 .card-show img{
     width: 20%;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .container{
+        justify-content: center;
+    }
+    .card-show{
+        padding: 2%;
+        display: flex;
+        flex-direction: column!important;
+    }
+    .card-show img{
+        width: 100%;
+    }
+    .btns{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
